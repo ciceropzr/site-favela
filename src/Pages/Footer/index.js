@@ -5,7 +5,7 @@ import {
   Logo,
   ICMBio,
   Corcovado,
-  PrecisaSer,
+  Evolux,
   PNTijuca,
 } from '../../assets';
 
@@ -85,7 +85,7 @@ width: auto;
       .corcovado-img {
         width: 175px;
       }
-      .precisaser-img {
+      .evolux-img {
         width: 120px;
       }
       .pnt-img {
@@ -126,7 +126,7 @@ const Footer = () => {
               <a href='https://www.tremdocorcovado.rio' target="_blank"><img src={Corcovado} alt='' className='corcovado-img' /></a>
               <a href='https://parquenacionaldatijuca.rio' target="_blank"><img src={PNTijuca} alt='' className='pnt-img' /></a>
               <a href='https://www.icmbio.gov.br/cma/ ' target="_blank"><img src={ICMBio} alt='' className='icm-img' /></a>
-              <a href='https://institutoprecisaser.org' target="_blank"><img src={PrecisaSer} alt='' className='precisaser-img' /></a>
+              <a href='https://institutoprecisaser.org' target="_blank"><img src={Evolux} alt='' className='evolux-img' /></a>
             </div>
           </BoxParces>
           <BoxContacts>
