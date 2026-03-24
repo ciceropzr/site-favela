@@ -81,6 +81,23 @@ function Directors() {
             </a>
           </S.BackText>
         </S.ContentTexts>
+          <S.ContentTexts>
+          <S.BackText>
+            <a
+              href=""
+              rel="noreferrer"
+              target="_blank"
+            >
+              <strong>Instituto Evolux:</strong>
+            </a>
+          </S.BackText>
+          <S.BackText>
+          O Instituto Evolux é uma organização da sociedade civil de base comunitária com atuação no Morro dos Prazeres e em comunidades do entorno de Santa Teresa, no Rio de Janeiro. Com mais de três décadas de trajetória social no território, o instituto nasce da evolução do trabalho iniciado pelo Grupo PROA, fundado em 1998 por Zoraide Gomes (Cris dos Prazeres), e consolidado ao longo dos anos por meio de iniciativas voltadas à educação, cultura, inclusão produtiva, meio ambiente e fortalecimento comunitário.
+          <br/>Com uma atuação enraizada no território e baseada na escuta ativa da comunidade, o Evolux desenvolve projetos que conectam moradores, organizações, empresas e poder público, ampliando o acesso a oportunidades, direitos e redes de apoio.
+          <br/>Ao longo de sua trajetória, a organização contribuiu para impactar milhares de pessoas por meio de ações de formação, mobilização social, promoção da cidadania, geração de renda e valorização da cultura local.
+          <br/>No Programa Favela Parque, o Instituto Evolux atua como realizador territorial, contribuindo para fortalecer o protagonismo comunitário, estimular a participação social e promover iniciativas que conectem desenvolvimento urbano, meio ambiente e qualidade de vida nas favelas.
+          </S.BackText>
+        </S.ContentTexts>
         <S.BackText>
           <a
             href="https://institutoprecisaser.org/"
@@ -93,27 +110,16 @@ function Directors() {
           </a>
         </S.BackText>
         <S.BackText>
-          O Precisa Ser é um instituto de tecnologias digitais e sociais, sem fins lucrativos,
-          criado em 2016. com um longo histórico de suporte e desenvolvimento de inovação
-          social, ele atua como uma rede que ajuda líderes e apoiadores em ações que
-          promovem o acesso a educação de qualidade, redução de desigualdade e bem-estar
-          coletivo, atuando em projetos próprios ou na assessoria de gestão para OSCs e
-          iniciativas sociais independentes alcançarem mais impacto.  Alguns destaques são:
+          O Precisa Ser foi a organização responsável pelos 3 primeiros anos do programa Favela Parque. Trata-se de um instituto de tecnologias digitais e sociais, sem fins lucrativos, criado em 2016. com um longo histórico de suporte e desenvolvimento de inovação social, ele atua como uma rede que ajuda líderes e apoiadores em ações que promovem o acesso a educação de qualidade, redução de desigualdade e bem-estar coletivo, atuando em projetos próprios ou na assessoria de gestão para OSCs e iniciativas sociais independentes alcançarem mais impacto. Alguns destaques são:
         </S.BackText>
         <S.BackText>
-          Vai Na Web - Programa de ensino gratuito de programação
-          digital avançada para jovens de 16-29 anos, moradores de favela.
+          Vai Na Web - Programa de ensino gratuito de programação digital avançada para jovens de 16-29 anos, moradores de favela.
         </S.BackText>
         <S.BackText>
-          Estúdio Vai Na Web - Centro de formação continuada onde os estudantes aperfeiçoam
-          seus conhecimentos técnicos em programação e suas habilidades profissionais para
-          atuação no mercado de trabalho.
+          Estúdio Vai Na Web - Centro de formação continuada onde os estudantes aperfeiçoam seus conhecimentos técnicos em programação e suas habilidades profissionais para atuação no mercado de trabalho.
         </S.BackText>
         <S.BackText>
-          StartupIN Favelas -
-          Um imersão empreendedora (onde as mais sofisticadas técnicas
-          de empreendedorismo são ensinadas) e um concurso de ideias para os
-          empreendedores de favela.
+          StartupIN Favelas - Uma imersão empreendedora (onde as mais sofisticadas técnicas de empreendedorismo são ensinadas) e um concurso de ideias para os empreendedores de favela.
         </S.BackText>
       </Layout>
     </Content>

@@ -7,7 +7,7 @@ import PreSelecao from "../../assets/pre-selecao.jpeg";
 import {
   ICMBio,
   Corcovado,
-  PrecisaSer,
+  Evolux,
   PNTijuca,
 } from '../../assets';
 
@@ -55,7 +55,7 @@ const Figure = styled.figure`
   .corcovado-img {
     width: 230px;
   }
-  .precisaser-img {
+  .evolux-img {
     width: 120px;
   }
   .pnt-img {
@@ -133,7 +133,7 @@ const Selecao = () => {
           <img src={Corcovado} alt="Trem do Corcovado" className='corcovado-img' />
           <img src={PNTijuca} alt="Parque Nacional da Tijuca" className='pnt-img' />
           <img src={ICMBio} alt="Institutot Chico Mendes" className='icm-img' />
-          <img src={PrecisaSer} alt="Precisa Ser" className='precisaser-img' />
+          <img src={Evolux} alt="Precisa Ser" className='evolux-img' />
         </Figure>
         <TextBold>Os 20 pré-selecionados.</TextBold>
         <Text>Começamos pra valer!</Text>
