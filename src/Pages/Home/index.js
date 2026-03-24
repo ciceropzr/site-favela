@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import {
   ICMBio,
   Corcovado,
-  PrecisaSer,
+  Evolux,
   PNTijuca,
 } from '../../assets';
 import * as S from './styles';
 
-const images = [Corcovado, PNTijuca, ICMBio, PrecisaSer];
+const images = [Corcovado, PNTijuca, ICMBio, Evolux];
 
 const moveBanner = keyframes`
   0% {
@@ -99,7 +99,7 @@ margin-top: 2rem;
         width: 130px;
         }
       }
-        .precisaser-img {
+        .evolux-img {
         width: 70px;
 
         @media(max-width: 557px) {
@@ -149,7 +149,7 @@ function Home() {
             <img src={Corcovado} alt='' className='corcovado-img' />
             <img src={PNTijuca} alt='' className='pnt-img' />
             <img src={ICMBio} alt='' className='icm-img' />
-            <img src={PrecisaSer} alt='' className='precisaser-img' />
+            <img src={Evolux} alt='' className='evolux-img' />
           </figure>
         </div>
       </BarParces>

@@ -4,7 +4,7 @@ export { default as LogoYellow } from './logoYellow.jpg';
 export { default as ImgFavela } from './imgFavela.jpg';
 export { default as PNTijuca } from './logo_PNTijuca.png';
 export { default as Corcovado } from './corcovado.png';
-export { default as PrecisaSer } from './logo_precisaSer.png';
+export { default as Evolux } from './logo_evolux.jpeg';
 export { default as ICMBio } from './logo_ICMBio.png';
 
 //Icons

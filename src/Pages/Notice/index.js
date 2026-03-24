@@ -39,6 +39,7 @@ const BoxContent = styled.div`
     position: relative;
     max-width: 18rem;
     font-weight: 300;
+    margin-bottom: 2rem;
   }
 
   > div {
@@ -67,90 +68,6 @@ const Text = styled.p`
   }
 `
 
-const GraphWrapper = styled.div`
-  max-width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-`
-
-const BoxGraph = styled.figure`
-  margin-bottom: 2rem;
-  > img {
-    max-width: ${(props) => (props.centered ? '400px' : '600px')};
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: #fff 0 0 7px;
-
-      @media(max-width: 768px) {
-        width: 100%;
-      }
-  }
-`;
-
-const Figure = styled.figure`
-  width: 100%;
-  max-width: 1440px;
-  width: 70vw;
-  display: flex;
-  position: relative;
-  gap: 2.5%;
-  margin: 0 auto 3rem; 
-
-  > img {
-    width: 30%;
-    border-radius: 12px;
-
-    :hover {
-      z-index: 4;
-      transition: all .2s ease-in;
-      box-shadow: 0 0 1px 1px white;
-    }
-  }
-
-  /* .image-position {
-    width: 50%;
-    height: 100%;
-    left: 35%;
-    margin-top: 1rem;
-    position: absolute;
-    box-shadow: 0 0 1px 1px white;
-  } */
-`
-
-const MenubyYear = styled.nav`
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 2rem;
-`;
-
-const MenubyYearOption = styled.button`
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: none;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  font-family: HandSean;
-  font-size: 2rem;
-  font-weight: 300;
-
-  :disabled {
-    color: #aeaeae;
-    cursor: not-allowed;
-  }
-
-  ${(props) => (props.selected && !props.disabled) ? css`
-    color: #e89f02;
-    transform: scale(0.95);
-  ` : ''}
-`;
-
 const Wavee = styled.img`
 width: 100vw;
 margin-top: -3px;
@@ -165,35 +82,7 @@ const Notice = () => {
         return <Text>Em construção...</Text>
       case 2023:
         return <>
-          <Text>Fruto dos anos de planejamento e meticulosa construção participativa com as comunidades o Programa Favela Parque nasceu maduro em 2023  e pode já no primeiro ano de atividades estabelecer resultados palpáveis. Grande parte dele pode ser verificada em números:</Text>
-          <Text>Total de Recursos aplicados em 2023: <b>R$ 268.291,79</b></Text>
-          <GraphWrapper>
-            <BoxGraph>
-              <img src={Graph} alt='graficos' />
-            </BoxGraph>
-
-            <BoxGraph>
-              <img src={GraphHora} alt='graficos' />
-            </BoxGraph>
-          </GraphWrapper>
-          <Text>Já para aqueles que gostam do “brilho nos olhos” dos beneficiários, veja a seguir uma seleção de fotografias dos Projetos em andamento (se quiser conhecer mais das atividades desenvolvidas em 2023 veja as nossas Galerias </Text>
-          <Link to="/projetos-em-andamento">
-            <Figure>
-              <img src={Cozinha} alt='galeria' />
-              <img src={Moradores} alt='galeria'/>
-              <img src={Residuos} alt='galeria' />
-            </Figure>
-          </Link>
-          <Text>Em 2023, o Programa atingiu <b>1009</b> beneficiários diretos</Text>
-          <Text>Os que participaram das atividades dos projetos foram <b>377</b> ao todo.</Text>
-          <Text>Já as pessoas que estiveram nas demais ações comunitárias (eventos de divulgação e celebração, visitas ao PNT e ao Cristo e a participação em Cursos e Seminário) foram: <b>632</b> pessoas. </Text>
-          <Text><b>11 coletivos</b> foram diretamente atendidos pelo Edital de Acesso a Recursos, deixando um legado de <b>98 agentes sociais</b> fortalecidos para desenvolver seus grupos e executar atividades. </Text>
-          <Text><b>662 horas ofertadas em benefício da população</b> pelos próprios atores sociais das comunidades, apenas no período de duração do Programa (boa parte dos projetos segue em atividade, maximizando aqueles benefícios). A isso se somam as horas de trabalho da <b>Equipe de Gestão</b>, ao longo do ano: <b>4.800 horas.</b></Text>
-          <Text>Destacamos dois depoimentos que trazem a grandeza do impacto de nossas ações:</Text>
-          <Text>“Pela primeira vez eu pude me dedicar a outras coisas do projeto. Dinheiro garantido fez a gente ter chance de olhar mais para dentro e desejar saltos maiores” (Janice Delfim, projeto “Educação no Morro dos Prazeres”).
-          </Text>
-          <Text>“Não tínhamos um coletivo de mulheres (no Cerro-Corá). Então no quesito social ajudou muito pois outras mulheres que não tinham essa visão crítica acabaram por entender aquele espaço. Tanto que ele se tornou mais leve, teve uma importância e um peso social importantes” (Renata Dias, realizadora do “Cozinha Solidária”).
-          </Text>
+          
         </>
       default:
         return null
@@ -202,14 +91,36 @@ const Notice = () => {
 
   return (
     <>
-      <Content id='resultados'>
+      <Content id='trajetoria'>
         <BoxContent>
-          <h2>Resultados</h2>
-          <MenubyYear>
-            <MenubyYearOption selected={activeButton === 2024} onClick={() => setActiveButton(2024)}>2024</MenubyYearOption>
-            <MenubyYearOption selected={activeButton === 2023} onClick={() => setActiveButton(2023)}>2023</MenubyYearOption>
-          </MenubyYear>
-          {renderSelectedYear()}
+          <h2>Trajetória</h2>
+          <Text>
+            O Programa Favela Parque está em atividade nos territórios do Cerro-Corá, Guararapes, Prazeres e Vila Cândido desde Outubro de 2022, fruto de um longo processo participativo com as comunidades que definiram em anos anteriores as linhas de atuação do Programa.
+          </Text>
+          <Text>
+            O <b>Edital de Acesso a Recursos</b> é uma iniciativa de apoio aos atores sociais daquelas comunidades, organizados em coletivos com diferentes atuações. Abrimos uma chamada pública a cada ano e já realizamos 3 edições. Em 2026, seguimos no nosso quarto ano de apoios.
+          </Text>
+          <Text>
+            O <b>Fortalecimento Organizacional</b> do Programa é uma linha que apoia ações das comunidades que beneficiem a população como um todo: mutirões, ações intergrupais de escala maior, eventos tradicionais de cunho aberto e gratuito, etc. Bem como apoios para a <b>Infraestrutura local</b> (apoio aos equipamentos locais, disponibilização de notebook e internet, formação de Conselhos locais, etc).
+          </Text>
+          <Text>
+            O processo de Formação e Informação consiste em um itinerário formativo disponibilizado aos atores sociais apoiados e outros interessados nas comunidades, garantindo um legado de conhecimento duradouro para o ambiente local. 
+          </Text>
+          <Text>
+            Já realizamos cursos diversos como: Educação Ambiental de Base Comunitária, Gestão de Projetos, Marketing Digital, Registro Audiovisual, Organização, Processos e Métodos e Análise de Dados,  entre outros.
+          </Text>
+          <Text>
+            Um dos grandes destaques é o curso permanente de Educação Ambiental de Base Comunitária, coordenado pelo GEASUR – Grupo de Estudos de Educação Ambiental Desde El Sur, conduzido por professores-doutores da UNIRIO. A importância da interação com o saber universitário também está presente na parceria de 2 anos com o Departamento de Psicologia da UFRJ, que acompanha e estimula os atores sociais ao longo de sua jornada de execução dos projetos.
+          </Text>
+          <Text>
+            A Comunicação, o Acompanhamento e a Supervisão do Programa também são um diferencial positivo deste Programa. Todo o processo é participativo e compartilhado em diversas instâncias com os moradores, em constantes devolutivas nas comunidades; e supervisionado pela Equipe de Supervisão do Contrato, composto por membros do ICMBio, do Trem do Corcovado, do Parque Nacional e lideranças das comunidades. 
+          </Text>
+          <Text>
+            A <b>interação das favelas com o Parque Nacional da Tijuca</b> e seus atrativos é outra ação constantemente desenvolvida pelo Programa. Seja na vivência com o espaço da floresta, ou na visitação ao morro do Corcovado e ao Cristo Redentor, são momentos que aproximam os dois universos, favorecendo ao engajamento de todos com o meio ambiente que nos cerca. 
+          </Text>
+          <Text>
+            <b>Acompanhe os 3 anos do Programa Favela Parque em 3 minutos</b>, no vídeo abaixo: 
+          </Text>
         </BoxContent>
       </Content>
       <Wavee src={Onda} />
