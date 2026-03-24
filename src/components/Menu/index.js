@@ -13,8 +13,8 @@ function Menu() {
     },
     {
       id: 1,
-      name: 'Resultados',
-      anchor: '#resultados',
+      name: 'Trajetória',
+      anchor: '#trajetoria',
     },
     {
       id: 2,

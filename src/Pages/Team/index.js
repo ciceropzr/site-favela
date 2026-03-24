@@ -73,22 +73,20 @@ function Team() {
               <strong>O Programa tem dois espaços de fortalecimento organizacional</strong> para os moradores em geral, que podem acessar notebooks e Internet, além de apoio para atividades diversas como reuniões, encontros online, formações à distância etc.
             </S.BackText>
             <S.BackText>
-              <strong>Para agendar seu uso ou buscar maiores informações sobre o Programa, entre em contato com:</strong>
+              <strong>Para agendar o uso dos equipamentos e espaços nos prédios comunitários que sediam o Favela Parque nas comunidades; ou buscar maiores informações sobre o Programa, entre em contato com:</strong>
             </S.BackText>
             <S.BackText>
-              <strong>Leonice Paimx - </strong> Telefone: (21) 99808-0608
+              <strong>Jacson Lima - </strong> Telefone: (21) 96531-7978 
             </S.BackText>
             <S.BackText>
-              Apoio na Biblioteca Claudio de Moraes (Largo do 20) na comunidade dos <strong>Guararapes</strong>.
+            Mobilizador Comunitário da área dos <strong>Prazeres</strong>.
             </S.BackText>
 
             <S.BackText>
-              <strong>Luciane Belmiro - </strong>Telefone: (21) 98348-7096
+              <strong>Processo seletivo em andamento - </strong>Telefone a definir
             </S.BackText>
             <S.BackText>
-            <S.BackText>
-              Apoio no prédio da Associação de Moradores da comunidade do <strong>Cerro-Corá</strong>.
-            </S.BackText>
+              Mobilizador/a Comunitário/a da área do <strong>Cerro-Corá e Guararapes/Vila Cândido</strong>.
             </S.BackText>
           </S.ContentTexts>
         </BoxContent>
