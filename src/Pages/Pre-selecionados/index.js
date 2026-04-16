@@ -46,6 +46,7 @@ const Figure = styled.figure`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   gap: 1rem;
   margin-bottom: 3rem;
   
@@ -135,14 +136,14 @@ const Selecao = () => {
           <img src={ICMBio} alt="Institutot Chico Mendes" className='icm-img' />
           <img src={Evolux} alt="Precisa Ser" className='evolux-img' />
         </Figure>
-        <TextBold>Os 20 pré-selecionados.</TextBold>
+        {/* <TextBold>Os 20 pré-selecionados.</TextBold>
         <Text>Começamos pra valer!</Text>
         <Text>Sábado passado realizamos o Seminário do Edital 2024.</Text>
         <Text>Dois representantes de cada uma das 20 propostas pré-selecionadas foram reunidos no Salão Nobre do Parque Lage para apresentar-se uns aos outros e entender a dinâmica da Etapa 2.</Text>
         <Text>Agora começa a etapa formativa quando disponibilizamos conhecimentos variados de Gestão de Projetos Sociais e Ferramentas Digitais de Administração e Comunicação e escrevemos juntos a proposta final de cada um.</Text>
         <Text>Uma série de encontros presenciais e mentorias on-line levam os grupos ao momento da decisão dos 11 aprovados para acessar recursos do Ciclo 1 (e os próprios coletivos definem as pontuações e regras).</Text>
         <Text>Terminamos a manhã com um almoço fantástico das mulheres empreendedoras do Cerro-Corá.</Text>
-        <Text>Muito obrigado ao ICMBio e ao Trem do Corcovado pela cessão de espaço e transportes.</Text>
+        <Text>Muito obrigado ao ICMBio e ao Trem do Corcovado pela cessão de espaço e transportes.</Text> */}
         <Text><b>Confira a lista dos  pré-selecionados abaixo:</b></Text>
 
         <Image src={PreSelecao} alt='aa' />

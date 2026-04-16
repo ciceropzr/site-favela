@@ -38,10 +38,10 @@ import GoodMorningFavela from "../Pages/Gallery/2025/GoodMorningFavela";
 
 // 2026
 import Edict2026 from "../Pages/Edital2026";
+import PreSelecao from "../Pages/Pre-selecionados"
 
 // import Recursos from "../Pages/EditalRecursos";
 // import Perguntas from "../Pages/EditalRecursos/Perguntas";
-// import PreSelecao from "../Pages/Pre-selecionados"
 // import Edital2025 from "../Pages/Edital2025";
 // import YouInThePark from "../Pages/YouInThePark";
 
@@ -99,6 +99,7 @@ const RoutesScreens = () => {
 
             {/* 2026 */}
             <Route path='/edict2026' element={<Edict2026 />} />
+            <Route path="/pre-selecionados" element={<PreSelecao />} />
 
             <Route path='/realizadores' element={<Directors />} />
             {/* <Route path='/voce-no-parque' element={<YouInThePark />} /> */}
